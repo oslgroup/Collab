@@ -19,8 +19,20 @@ public class Main
 		}
 	}
 	
+	public static void Display(int[] arr)
+	{
+		for (int i = 0; i < arr.length; i++)
+		{
+			System.out.print(arr[i] + " ");
+		}
+		System.out.println();
+	}
+	
 	public static void main(String[] args)
 	{
-		System.out.println("hello world");
+		int[] arr = {5, 3, 4, 1, 2};
+		Display(arr);
+		SelectionSort();
+		Display(arr);
 	}
 }
