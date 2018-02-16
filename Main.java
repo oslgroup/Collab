@@ -1,4 +1,6 @@
 public class Main
+
+
 {
 	public static void SelectionSort(int[] arr)
 	{
@@ -33,6 +35,22 @@ public class Main
 			}
 			arr[j + 1] = key;
 		}
+	}
+	
+	public static void BubbleSort(int[] arr)
+	{
+		int temp;
+		for (int i=0;i<n;i++){
+				for(int j=i;i<n-i;j++){
+					if(arr[i]>arr[j]{
+						
+					temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+					}
+				}
+		}
+	
 	}
 	
 	public static void Display(int[] arr)
